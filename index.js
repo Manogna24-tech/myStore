@@ -6,6 +6,9 @@ fetch("products.json")
   
 
 const cart = {};
+
+
+
 const addToCart = (id) => {
   if (!cart[id]) cart[id] = 1;
   showCart();
